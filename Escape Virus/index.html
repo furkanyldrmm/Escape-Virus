@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <meta charset="UTF-8">
+    <title>Traffic racer</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+    <link href="style.css" rel="stylesheet" /> </head>
+
+    <body onload="myFunction()">
+
+    <audio id ="ses">
+       
+        <source src="music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+     
+    <div id="help">
+ <button onclick="playAudio()" type="button">Sound On</button> <br>
+ <button onclick="stopAudio()" type="button">Sound Of</button>
+
+    </div>
+    <div id="score_div">
+        Score: <span id="score">0</span>
+        High Score: <span id="high_score">0</span>
+    </div>
+    
+    <div id="container">
+        <div id="line_1" class="line"></div>
+        <div id="line_2" class="line"></div>
+        <div id="line_3" class="line"></div>
+        <div id="car" class="car">
+            <img id="cara" src="kar.png">
+        </div>
+        <div id="vir1" class="car">
+            <img id="carv" src="virus.png">
+        </div>
+        <div id="vir2" class="car">
+            <img id="carv" src="bvirus.png">
+        </div>
+        <div id="vir3" class="car">
+            <img id="carv" src="tvirus.png">
+
+        </div>
+        <div id="restart_div">
+            <button id="restart">
+                Öldün Çık <br>
+                <small class="small_text">(إل فتيحة)</small>
+            </button>
+        </div>
+    </div>
+    
+  
+        <script>
+            var x = document.getElementById("ses");
+            function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+        </script>
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
