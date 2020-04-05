@@ -1,1 +1,1 @@
-# [Escape-Virus](https://furkanyldrmm.github.io/Escape-Virus/EscapeVirus)
+# [Escape-Virus](https://furkanyldrmm.github.io/Escape-Virus/Escape Virus)
