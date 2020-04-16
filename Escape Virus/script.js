@@ -1,4 +1,4 @@
-/* Arshad Muhammed */
+
 $(function() {
 
     var anim;
@@ -35,9 +35,9 @@ $(function() {
     var move_up = false;
     var move_down = false;
 
-    /* ------------------------------GAME CODE STARTS HERE------------------------------------------- */
+    
 
-    /* Move the cars */
+   
     $(document).on('keydown', function(e) {
         if (game_over === false) {
             var key = e.keyCode;
